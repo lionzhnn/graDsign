@@ -62,25 +62,3 @@ int main(int argc,char *argv[])
 	delete[] bcBuff;
 	return 0;
 }
-/*
-int maintemp()
-{
-	float x=7.878556;
-	float y=12.825528;
-	float z=15.177464;
-	unsigned char l,a,b;
-	printf("y--%f\nx--%f\nz--%f\n",y/y0,x/x0,z/z0);
-	if((y/y0)>0.008856){
-			l=116*pow(y/y0,(double)1/3)-16;
-		}
-		else{
-			l=903.3*pow(y/y0,(double)1/3);
-		}
-		a=(unsigned char)500*(f(x/x0)-f(y/y0));
-		b=(unsigned char)200*(f(y/y0)-f(z/z0));
-	printf("double a=%f\n",500*(f(x/x0)-f(y/y0)));
-	printf("double b=%f\n",200*(f(y/y0)-f(z/z0)));
-	printf("l=%d\na=%d\nb=%d\n",l,a,b);
-	return 0;
-}
-*/
